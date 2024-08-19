@@ -3,8 +3,8 @@ package classeEmprestimo;
 public class EmprestimoTA extends Emprestimo {
 	private float ta;
 
-	EmprestimoTA(int n, float j, float s, float ta) {
-		super(n, j, s);
+	EmprestimoTA(float s, int n, float j, float ta) {
+		super(s, n, j);
 		this.ta = ta;
 	}
 
@@ -13,10 +13,10 @@ public class EmprestimoTA extends Emprestimo {
 	}
 
 	public float proximaParcela() {
-		float pta = super.proximaParcela();
-		if (pta > 0) {
-			pta += ta;
+		float pp = super.proximaParcela();
+		if (pp > 0) {
+			pp += ta;
 		}
-		return pta;
+		return pp;
 	}
 }

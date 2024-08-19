@@ -6,8 +6,7 @@ public class Emprestimo {
 	private int corrente;
 	private float p;
 
-	public Emprestimo(int n, float j, float s) {
-		super();
+	public Emprestimo(float s, int n, float j) {
 		this.n = n;
 		this.j = j;
 		this.corrente = 1;
@@ -15,13 +14,13 @@ public class Emprestimo {
 	}
 
 	public float proximaParcela() {
+		float retorno = p;
 		corrente++;
 		if (corrente <= n) {
 			p = p + (p * (j / 100));
 		} else {
 			p = 0;
 		}
-		float retorno = p;
 		return retorno;
 	}
 }

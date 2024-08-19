@@ -15,10 +15,11 @@ public class ConjuntoEmprestimos {
 		if (corrente + 1 < vEmprestimo.length) {
 			corrente++;
 			vEmprestimo[corrente] = emp;
+			resultado = true;
 		}
 		return resultado;
 	}
-	
+
 	boolean proximasParcelas() {
 		boolean status = false;
 		for (int e = 0; e < vEmprestimo.length; e++) {
