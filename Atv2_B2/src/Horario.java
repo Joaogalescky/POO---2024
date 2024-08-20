@@ -1,4 +1,3 @@
-
 public class Horario extends Tempo {
 	// Atributos
 	private Integer hora;
@@ -13,31 +12,6 @@ public class Horario extends Tempo {
 		this.hora = hora;
 		this.minuto = minuto;
 		this.segundo = segundo;
-	}
-
-	// Getters e Setters
-	public void setHora(Integer hora) {
-		this.hora = hora;
-	}
-
-	public Integer getHora() {
-		return hora;
-	}
-
-	public void setMinuto(Integer minuto) {
-		this.minuto = minuto;
-	}
-
-	public Integer getMinuto() {
-		return minuto;
-	}
-
-	public void setSegundo(Integer segundo) {
-		this.segundo = segundo;
-	}
-
-	public Integer getSegundo() {
-		return segundo;
 	}
 
 	// Métodos
