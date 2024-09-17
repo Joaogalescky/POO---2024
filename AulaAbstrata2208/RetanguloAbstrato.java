@@ -1,4 +1,4 @@
-package classeAbstrata;
+package AulaAbstrata2208;
 
 public class RetanguloAbstrato extends PoligonoAbstrato {
 

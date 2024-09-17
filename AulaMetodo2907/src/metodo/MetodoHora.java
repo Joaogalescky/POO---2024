@@ -1,6 +1,6 @@
 package metodo;
 
-public class ExMetodoHora {
+public class MetodoHora {
 
 	public int hor, min, seg;
 

@@ -1,6 +1,6 @@
 package metodo;
 
-public class TesteExMetodoHora {
+public class TesteMetodoHora {
 
 	public static void main(String[] args) {
 		// ExMetodoHora.setHorario(21, 50, 00);

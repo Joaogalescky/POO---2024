@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="AulaMetodo0108/src/|AulaMetodo0508/src/|AulaMetodo2907/src/|AulaMetodo/src/|AulaClasse/src/|AtvPolimorfismo/src/|AulaHeranca1208/src/" kind="src" path=""/>
+	<classpathentry kind="src" path="AtvPolimorfismo/src"/>
+	<classpathentry kind="src" path="AulaClasse/src"/>
+	<classpathentry kind="src" path="AulaHeranca1208/src"/>
+	<classpathentry kind="src" path="AulaMetodo/src"/>
+	<classpathentry kind="src" path="AulaMetodo0108/src"/>
+	<classpathentry kind="src" path="AulaMetodo0508/src"/>
+	<classpathentry kind="src" path="AulaMetodo2907/src"/>
+	<classpathentry kind="output" path="AtvPolimorfismo/bin"/>
+</classpath>
