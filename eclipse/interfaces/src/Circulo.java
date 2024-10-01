@@ -1,4 +1,4 @@
-package interfaces;
+package interfaces.src;
 
 public class Circulo implements Geometria {
 	private int raio;

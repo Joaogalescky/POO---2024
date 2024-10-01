@@ -1,4 +1,4 @@
-package interfaces;
+package interfaces.src;
 
 public class TestaInterface {
 

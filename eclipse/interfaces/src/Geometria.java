@@ -1,4 +1,4 @@
-package interfaces;
+package interfaces.src;
 
 public interface Geometria {
 	float getPerimetro();

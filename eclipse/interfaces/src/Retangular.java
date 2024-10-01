@@ -1,4 +1,4 @@
-package interfaces;
+package interfaces.src;
 
 public interface Retangular {
 	int getAltura();
