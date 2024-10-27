@@ -1,4 +1,4 @@
-package view;
+package eclipse.lojaIFPR.src.view;
 
 import javax.swing.JFrame;
 

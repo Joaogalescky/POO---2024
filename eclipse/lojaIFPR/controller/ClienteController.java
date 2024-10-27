@@ -1,6 +1,6 @@
-package lojaIFPR.controller;
+package eclipse.lojaIFPR.controller;
 
-import lojaIFPR.model.Cliente;
+import eclipse.lojaIFPR.model.Cliente;
 
 
 public class ClienteController {

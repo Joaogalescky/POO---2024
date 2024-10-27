@@ -1,4 +1,4 @@
-package view;
+package eclipse.lojaIFPR.src.view;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -39,6 +39,10 @@ public class TelaPrincipal extends JFrame {
 		itemMenuSobre = new JMenuItem("Sobre");
 		itemMenuSair = new JMenuItem("Sair");
 
+		menuCadastro.setMnemonic('C');// configura o mnemônico como C
+		menuCompra.setMnemonic('o');// configura o mnemônico como o
+		menuAjuda.setMnemonic('A'); // configura o mnemônico como A
+
 		// Adicionando botões
 		setJMenuBar(barMenu);
 		barMenu.add(menuCadastro);
@@ -58,18 +62,18 @@ public class TelaPrincipal extends JFrame {
 				JOptionPane.showMessageDialog(TelaPrincipal.this, "Este é um exemplo\n" + " de uso de menus.");
 			}
 		});
-		
-		itemMenuSobre.addActionListener(new ActionListener() {
+
+		itemMenuSair.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent sair) {
 				System.exit(0);
 			}
 		});
-		
-		itemMenuSobre.addActionListener(new ActionListener() {
+
+		itemMenuCliente.addActionListener(new ActionListener() {
 			@Override
-			public void actionPerformed(ActionEvent cliente) {
-//				TelaCadCli cadClientes = new TelaCadCli();
+			public void actionPerformed(ActionEvent sair) {
+				// TelaCadCli cadClientes = new TelaCadCli();
 			}
 		});
 	}

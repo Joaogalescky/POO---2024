@@ -1,10 +1,9 @@
-package lojaIFPR.dao;
+package eclipse.lojaIFPR.dao;
 
-public class ExceptionDAO extends Exception{
-	
-	private static final long serialVersionUID = -3260432967308413217L;
+public class ExceptionDAO extends Exception {
+	private static final long serialVersionUID = 1L;
 
-	public ExceptionDAO (String mensagem) {
-		super(mensagem);
+	public ExceptionDAO(String msg) {
+		super(msg);
 	}
 }

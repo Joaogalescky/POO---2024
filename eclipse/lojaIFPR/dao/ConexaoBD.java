@@ -1,4 +1,4 @@
-package lojaIFPR.dao;
+package eclipse.lojaIFPR.dao;
 
 import java.sql.DriverManager;
 import java.sql.Connection;

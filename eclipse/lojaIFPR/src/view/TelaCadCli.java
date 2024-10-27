@@ -1,16 +1,16 @@
-package eclipse.lojaIFPR.view;
+package eclipse.lojaIFPR.src.view;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
 
-public class TelaCadCli extends JFrame {
+public class TelaCadCli extends JFrame{
+    private static final long serialVersionUID = 1L;
 
-	private static final long serialVersionUID = 5756598100844974336L;
-
-	private JLabel nomeJLabel;
-	private JTextField nomeJTxtField;
+    // Variáveis
+    private JLabel nomeJLabel;
+    private JTextField nomeJTxtField;
 	private JLabel foneJLabel;
 	private JTextField foneJTxtField;
 	public JButton incluirBtn;
@@ -20,9 +20,9 @@ public class TelaCadCli extends JFrame {
 	public JButton alterarBtn;
 	public JButton excluirBtn;
 
-	public TelaCadCli() {
+    // Tela
+    public TelaCadCli() {
 		super("Cadastro de Clientes");
-
 		nomeJLabel = new JLabel("Nome");
 		nomeJTxtField = new JTextField();
 		foneJLabel = new JLabel("Telefone");
@@ -33,7 +33,7 @@ public class TelaCadCli extends JFrame {
 		cancelarBtn = new JButton("Cancelar");
 		consultarBtn = new JButton("Consultar");
 		excluirBtn = new JButton("Excluir");
-
+		
 		setSize(450, 200);
 		// setTitle("Cadastro de Clientes");
 		setVisible(true);
@@ -43,14 +43,14 @@ public class TelaCadCli extends JFrame {
 		nomeJTxtField.setBounds(50, 10, 200, 25);
 		foneJLabel.setBounds(10, 50, 100, 25);
 		foneJTxtField.setBounds(70, 50, 200, 25);
-
-		incluirBtn.setBounds(20, 100, 70, 25);
-		limparBtn.setBounds(80, 100, 70, 25);
-		cancelarBtn.setBounds(140, 100, 80, 25);
-		consultarBtn.setBounds(210, 100, 90, 25);
-		alterarBtn.setBounds(290, 100, 80, 25);
-		excluirBtn.setBounds(360, 100, 80, 25);
-
+		
+		incluirBtn.setBounds(20,100,70,25);
+		limparBtn.setBounds(80,100,70,25);
+		cancelarBtn.setBounds(140,100,80,25);
+		consultarBtn.setBounds(210,100,90,25);
+		alterarBtn.setBounds(290,100,80,25);
+		excluirBtn.setBounds(360,100,80,25);
+		
 		add(nomeJLabel);
 		add(nomeJTxtField);
 		add(foneJLabel);
@@ -61,10 +61,9 @@ public class TelaCadCli extends JFrame {
 		add(consultarBtn);
 		add(alterarBtn);
 		add(excluirBtn);
-
+		
 		alterarBtn.setEnabled(false);
 		excluirBtn.setEnabled(false);
-		// incluirBtn.setEnabled(false);
-
+		//incluirBtn.setEnabled(false);
 	}
 }

@@ -1,4 +1,4 @@
-package lojaIFPR.view;
+package eclipse.lojaIFPR.view;
 
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
